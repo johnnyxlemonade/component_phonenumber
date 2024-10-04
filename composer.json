@@ -9,14 +9,13 @@
     }
   ],
   "require": {
-     "giggsey/libphonenumber-for-php": "*"
+     "giggsey/libphonenumber-for-php": "*",
+     "php": ">=8.1"
   },
   "autoload": {
     "psr-4": {
       "Lemonade\\PhoneNumber\\": "src/"
     }
-  },
-  "require": {
-    "php": ">=8.1"
   }
 }
+
