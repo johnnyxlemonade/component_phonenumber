@@ -8,10 +8,10 @@
       "homepage": "https://core1.agency"
     }
   ],
+  "require": {
+     "giggsey/libphonenumber-for-php": "*"
+  },
   "autoload": {
-    "require": {
-      "giggsey/libphonenumber-for-php": "^7.0 || ^8.0"
-    },
     "psr-4": {
       "Lemonade\\PhoneNumber\\": "src/"
     }
