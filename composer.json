@@ -1,0 +1,22 @@
+{
+  "name": "lemonade/component_phonenumber",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Honza Mudrak",
+      "email": "honza@core1.agency",
+      "homepage": "https://core1.agency"
+    }
+  ],
+  "autoload": {
+    "require": {
+      "giggsey/libphonenumber-for-php": "^7.0 || ^8.0"
+    },
+    "psr-4": {
+      "Lemonade\\PhoneNumber\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
